@@ -4,6 +4,8 @@
 
 **Exoplanet ML** is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. By leveraging advanced machine learning algorithms and feature engineering techniques, this project aims to enhance the accuracy and efficiency of exoplanet discovery.
 
+![Light Curve](https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/656348main_ToV_transit_diag.jpg?w=1536&format=webp&fit=clip&crop=faces%2Cfocalpoint)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -12,6 +14,7 @@
 - [Examples](#examples)
   - [Model Performance](#model-performance)
   - [Light Curve Visualization](#light-curve-visualization)
+  - [Workflow](#workflow)
 - [Project Structure](#project-structure)
 - [Resources](#resources)
   - [Dimensionality Reduction](#dimensionality-reduction)
@@ -67,9 +70,13 @@ Below are some examples of model performance and visualizations:
 
 ### Light Curve Visualization
 
-![Light Curve](https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/656348main_ToV_transit_diag.jpg?w=1536&format=webp&fit=clip&crop=faces%2Cfocalpoint)
+
 
 ![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
+
+### Workflow
+
+![Light Curve](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*gO0UzUFVzU1Sftk8Ds5fcQ.jpeg)
 
 ## Project Structure
 
