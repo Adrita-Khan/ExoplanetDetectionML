@@ -77,7 +77,7 @@ Below are some examples of model performance and visualizations:
 
 ### Workflow
 
-![Light Curve](https://drive.google.com/file/d/1yA75sr8ZS_RneW5WgpBdrfU-anRlrkeV/view?usp=drive_link)
+![Light Curve](Assets/workflow.png)
 
 ## Project Structure
 
