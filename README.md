@@ -28,7 +28,7 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-![Light Curve](https://www.researchgate.net/publication/384054113/figure/fig1/AS:11431281278011555@1726421015679/Diagram-of-Exoplanet-Detection-Process-using-Artificial-Intelligence-AI.jpg)
+![Light Curve](https://geo.libretexts.org/@api/deki/files/21040/Transit-method.png?revision=1)
 
 
 ## Features
