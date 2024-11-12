@@ -1,5 +1,3 @@
-
-
 ![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
 
 **Exoplanet ML** is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. By leveraging advanced machine learning algorithms and feature engineering techniques, this project aims to enhance the accuracy and efficiency of exoplanet discovery.
