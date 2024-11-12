@@ -1,4 +1,4 @@
-# Exoplanet ML
+
 
 ![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
 
