@@ -28,7 +28,7 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-![Light Curve](https://media1.tenor.com/m/3EH5h-kL2IAAAAAd/exoplanetas-estrela.gif)
+![Light Curve](https://www.researchgate.net/publication/384054113/figure/fig1/AS:11431281278011555@1726421015679/Diagram-of-Exoplanet-Detection-Process-using-Artificial-Intelligence-AI.jpg)
 
 
 ## Features
