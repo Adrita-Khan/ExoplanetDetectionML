@@ -1,0 +1,70 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Sat Aug 17 22:55:16 2024
+#
+# User preference: *
+#
+# CONSTRAINT:  where (koi_disposition like '%CANDIDATE%'
+# CONSTRAINT:  and koi_pdisposition like '%CANDIDATE%'
+# CONSTRAINT:  and koi_score > 0.99)
+#
+# COLUMN kepid:          KepID
+# COLUMN kepoi_name:     KOI Name
+# COLUMN kepler_name:    Kepler Name
+# COLUMN koi_disposition: Exoplanet Archive Disposition
+# COLUMN koi_pdisposition: Disposition Using Kepler Data
+# COLUMN koi_score:      Disposition Score
+# COLUMN koi_fpflag_nt:  Not Transit-Like False Positive Flag
+# COLUMN koi_fpflag_ss:  Stellar Eclipse False Positive Flag
+# COLUMN koi_fpflag_co:  Centroid Offset False Positive Flag
+# COLUMN koi_fpflag_ec:  Ephemeris Match Indicates Contamination False Positive Flag
+# COLUMN koi_period:     Orbital Period [days]
+# COLUMN koi_period_err1: Orbital Period Upper Unc. [days]
+# COLUMN koi_period_err2: Orbital Period Lower Unc. [days]
+# COLUMN koi_time0bk:    Transit Epoch [BKJD]
+# COLUMN koi_time0bk_err1: Transit Epoch Upper Unc. [BKJD]
+# COLUMN koi_time0bk_err2: Transit Epoch Lower Unc. [BKJD]
+# COLUMN koi_impact:     Impact Parameter
+# COLUMN koi_impact_err1: Impact Parameter Upper Unc.
+# COLUMN koi_impact_err2: Impact Parameter Lower Unc.
+# COLUMN koi_duration:   Transit Duration [hrs]
+# COLUMN koi_duration_err1: Transit Duration Upper Unc. [hrs]
+# COLUMN koi_duration_err2: Transit Duration Lower Unc. [hrs]
+# COLUMN koi_depth:      Transit Depth [ppm]
+# COLUMN koi_depth_err1: Transit Depth Upper Unc. [ppm]
+# COLUMN koi_depth_err2: Transit Depth Lower Unc. [ppm]
+# COLUMN koi_prad:       Planetary Radius [Earth radii]
+# COLUMN koi_prad_err1:  Planetary Radius Upper Unc. [Earth radii]
+# COLUMN koi_prad_err2:  Planetary Radius Lower Unc. [Earth radii]
+# COLUMN koi_teq:        Equilibrium Temperature [K]
+# COLUMN koi_teq_err1:   Equilibrium Temperature Upper Unc. [K]
+# COLUMN koi_teq_err2:   Equilibrium Temperature Lower Unc. [K]
+# COLUMN koi_insol:      Insolation Flux [Earth flux]
+# COLUMN koi_insol_err1: Insolation Flux Upper Unc. [Earth flux]
+# COLUMN koi_insol_err2: Insolation Flux Lower Unc. [Earth flux]
+# COLUMN koi_model_snr:  Transit Signal-to-Noise
+# COLUMN koi_tce_plnt_num: TCE Planet Number
+# COLUMN koi_tce_delivname: TCE Delivery
+# COLUMN koi_steff:      Stellar Effective Temperature [K]
+# COLUMN koi_steff_err1: Stellar Effective Temperature Upper Unc. [K]
+# COLUMN koi_steff_err2: Stellar Effective Temperature Lower Unc. [K]
+# COLUMN koi_slogg:      Stellar Surface Gravity [log10(cm/s**2)]
+# COLUMN koi_slogg_err1: Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
+# COLUMN koi_slogg_err2: Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
+# COLUMN koi_srad:       Stellar Radius [Solar radii]
+# COLUMN koi_srad_err1:  Stellar Radius Upper Unc. [Solar radii]
+# COLUMN koi_srad_err2:  Stellar Radius Lower Unc. [Solar radii]
+# COLUMN ra:             RA [decimal degrees]
+# COLUMN dec:            Dec [decimal degrees]
+# COLUMN koi_kepmag:     Kepler-band [mag]
+#
+kepid,kepoi_name,kepler_name,koi_disposition,koi_pdisposition,koi_score,koi_fpflag_nt,koi_fpflag_ss,koi_fpflag_co,koi_fpflag_ec,koi_period,koi_period_err1,koi_period_err2,koi_time0bk,koi_time0bk_err1,koi_time0bk_err2,koi_impact,koi_impact_err1,koi_impact_err2,koi_duration,koi_duration_err1,koi_duration_err2,koi_depth,koi_depth_err1,koi_depth_err2,koi_prad,koi_prad_err1,koi_prad_err2,koi_teq,koi_teq_err1,koi_teq_err2,koi_insol,koi_insol_err1,koi_insol_err2,koi_model_snr,koi_tce_plnt_num,koi_tce_delivname,koi_steff,koi_steff_err1,koi_steff_err2,koi_slogg,koi_slogg_err1,koi_slogg_err2,koi_srad,koi_srad_err1,koi_srad_err2,ra,dec,koi_kepmag
+6949898,K03031.01,,CANDIDATE,CANDIDATE,0.9910,0,0,0,0,7.648094620,5.6070000e-05,-5.6070000e-05,137.2173700,5.130000e-03,-5.130000e-03,0.2650,0.1920,-0.2650,2.21600,0.16100,-0.16100,1.9590e+02,1.880e+01,-1.880e+01,1.19,3.000e-01,-1.000e-01,840.0,,,117.65,92.15,-30.60,12.20,1,q1_q17_dr25_tce,5641.00,169.00,-169.00,4.554,0.033,-0.176,0.8500,0.2200,-0.0730,292.227390,42.451969,15.267
+6124137,K07764.01,,CANDIDATE,CANDIDATE,0.9910,0,0,0,0,227.834570000,1.4020000e-02,-1.4020000e-02,238.7643000,4.540000e-02,-4.540000e-02,0.5600,0.4040,-0.3470,21.59000,1.90000,-1.90000,1.5530e+02,1.560e+01,-1.560e+01,2.83,4.500e-01,-8.300e-01,449.0,,,9.59,3.97,-5.06,13.10,1,q1_q17_dr25_tce,6004.00,80.00,-80.00,3.814,0.224,-0.096,2.1930,0.3470,-0.6440,292.010500,41.467098,13.845
+5443320,K05169.01,,CANDIDATE,CANDIDATE,0.9910,0,0,0,0,21.368434100,1.3350000e-04,-1.3350000e-04,143.7226600,5.320000e-03,-5.320000e-03,0.0630,0.4140,-0.0630,1.18000,0.17200,-0.17200,4.9280e+02,7.830e+01,-7.830e+01,1.72,1.900e-01,-2.100e-01,551.0,,,21.86,8.49,-6.95,9.70,1,q1_q17_dr25_tce,5204.00,153.00,-153.00,4.515,0.102,-0.077,0.7860,0.0880,-0.0970,290.205470,40.669930,15.470
+9640123,K07209.01,,CANDIDATE,CANDIDATE,0.9910,0,0,0,0,8.255349900,1.3620000e-04,-1.3620000e-04,135.1700000,1.770000e-02,-1.770000e-02,0.9180,0.0260,-0.6510,3.95900,0.44500,-0.44500,5.4500e+01,6.600e+00,-6.600e+00,3.28,5.400e-01,-1.250e+00,1462.0,,,1079.27,478.08,-689.77,10.00,1,q1_q17_dr25_tce,5403.00,86.00,-75.00,3.559,0.296,-0.111,3.6000,0.5900,-1.3760,287.510710,46.389950,13.816
+8042644,K06957.01,,CANDIDATE,CANDIDATE,0.9910,0,0,0,0,1.480628140,1.5560000e-05,-1.5560000e-05,131.5153500,7.640000e-03,-7.640000e-03,0.4790,0.4860,-0.2680,2.89800,0.20900,-0.20900,6.2500e+01,7.300e+00,-7.300e+00,0.76,2.500e-01,-8.000e-02,1653.0,,,1770.63,1707.50,-553.28,10.30,1,q1_q17_dr25_tce,6187.00,175.00,-219.00,4.499,0.054,-0.216,0.9370,0.3050,-0.1020,296.359560,43.866760,15.189
+11462341,K02124.01,,CANDIDATE,CANDIDATE,0.9920,0,0,0,0,42.337579900,4.0590000e-04,-4.0590000e-04,158.2518700,8.150000e-03,-8.150000e-03,0.9470,0.0000,-0.6550,4.92400,0.15700,-0.15700,3.5480e+02,2.260e+01,-2.260e+01,1.45,7.000e-02,-8.000e-02,311.0,,,2.21,0.43,-0.39,18.10,1,q1_q17_dr25_tce,4132.00,83.00,-91.00,4.682,0.025,-0.022,0.5810,0.0300,-0.0300,295.288540,49.379791,14.275
+7294743,K02516.01,,CANDIDATE,CANDIDATE,0.9920,0,0,0,0,2.810432280,2.1150000e-05,-2.1150000e-05,133.4082100,6.070000e-03,-6.070000e-03,0.3510,0.1150,-0.3510,3.87400,0.18500,-0.18500,4.7400e+01,3.100e+00,-3.100e+00,1.43,2.400e-01,-3.900e-01,1701.0,,,1978.53,885.15,-986.59,17.80,1,q1_q17_dr25_tce,5415.00,81.00,-72.00,3.868,0.196,-0.084,2.0790,0.3490,-0.5670,295.453670,42.858799,13.388
+12602314,K02853.01,,CANDIDATE,CANDIDATE,0.9920,0,0,0,0,1.407020118,4.3710000e-06,-4.3710000e-06,131.6089700,2.470000e-03,-2.470000e-03,0.1670,0.2840,-0.1670,1.37660,0.08430,-0.08430,1.8190e+02,1.150e+01,-1.150e+01,1.12,4.000e-02,-9.000e-02,1350.0,,,782.45,120.58,-160.93,18.90,1,q1_q17_dr25_tce,5022.00,82.00,-82.00,4.485,0.083,-0.028,0.8490,0.0340,-0.0670,290.433230,51.626041,14.946
+11071200,K02696.02,,CANDIDATE,CANDIDATE,0.9920,0,0,0,0,44.564383100,3.5010000e-04,-3.5010000e-04,143.4352600,6.040000e-03,-6.040000e-03,0.8510,0.0420,-0.5770,7.87400,0.17800,-0.17800,3.6050e+02,1.440e+01,-1.440e+01,5.80,1.040e+00,-1.930e+00,940.0,,,184.67,101.75,-112.33,27.00,2,q1_q17_dr25_tce,7029.00,194.00,-219.00,3.806,0.277,-0.092,2.7040,0.4850,-0.9010,284.415920,48.658020,12.998
+3230805,K03068.01,,CANDIDATE,CANDIDATE,0.9920,0,0,0,0,3.916795530,2.6020000e-05,-2.6020000e-05,133.6027400,4.630000e-03,-4.630000e-03,0.0070,0.4520,-0.0070,2.07200,0.15800,-0.15800,1.6130e+02,1.410e+01,-1.410e+01,0.85,9.000e-02,-7.000e-02,851.0,,,123.73,47.10,-28.03,13.20,1,q1_q17_dr25_tce,4889.00,146.00,-131.00,4.637,0.032,-0.059,0.6860,0.0740,-0.0490,290.260280,38.354988,14.976
