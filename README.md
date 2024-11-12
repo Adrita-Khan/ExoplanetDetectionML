@@ -2,22 +2,17 @@
 
 ![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/exoplanet-ml)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/exoplanet-ml?style=social)
-
 **Exoplanet ML** is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. By leveraging advanced machine learning algorithms and feature engineering techniques, this project aims to enhance the accuracy and efficiency of exoplanet discovery.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
 - [Machine Learning Algorithms](#machine-learning-algorithms)
 - [Key Notebooks](#key-notebooks)
+- [Examples](#examples)
+  - [Model Performance](#model-performance)
+  - [Feature Importance](#feature-importance)
+  - [Light Curve Visualization](#light-curve-visualization)
 - [Project Structure](#project-structure)
 - [Resources](#resources)
   - [Dimensionality Reduction](#dimensionality-reduction)
@@ -30,15 +25,8 @@
   - [Plotting](#scikit-learn-plotting)
   - [Probability Calibration](#probability-calibration)
   - [Additional Resources](#technical-problem-solution-and-miscellaneous-links)
-- [Results](#results)
-- [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
-- [Contact](#contact)
-
-## Introduction
-
-The search for exoplanets has been revolutionized by space-based transit surveys, which monitor the brightness of stars to detect periodic dips caused by orbiting planets. **Exoplanet ML** harnesses the power of machine learning to analyze these light curves, improving the detection rate and reducing false positives. This project integrates various machine learning techniques, from feature engineering to model calibration, to provide a comprehensive toolkit for astronomers and data scientists alike.
 
 ## Features
 
@@ -46,54 +34,23 @@ The search for exoplanets has been revolutionized by space-based transit surveys
 - **Advanced Algorithms**: Implements state-of-the-art machine learning models for high accuracy.
 - **Feature Engineering**: Employs robust feature extraction and selection techniques to enhance model performance.
 - **Dimensionality Reduction**: Reduces feature space complexity while preserving essential information.
-- **Scalable Pipelines**: Designed to handle large datasets efficiently.
-- **Model Calibration**: Ensures probability estimates are well-calibrated for reliable predictions.
 
-## Installation
+## Machine Learning Algorithms
 
-To get started with **Exoplanet ML**, follow these steps:
+Exoplanet ML employs a variety of machine learning algorithms to ensure comprehensive analysis and accurate predictions:
 
-1. **Clone the repository:**
+- **Random Forest Classifier**
+- **LightGBM**
+- **AdaBoost**
+- **Histogram Gradient Boosting**
+- **XGBoost**
+- **XGBoost Calibrated**
 
-    ```bash
-    git clone https://github.com/yourusername/exoplanet-ml.git
-    cd exoplanet-ml
-    ```
+## Key Notebooks
 
-2. **Create a virtual environment:**
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install the required dependencies:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-Here's a quick example of how to use **Exoplanet ML** to train a model and make predictions:
-
-1. **Prepare your data:**
-
-    Ensure your light curve data is in the correct format as specified in the [Data Preparation Guide](docs/data_preparation.md).
-
-2. **Run the training script:**
-
-    ```bash
-    python train.py --config config.yaml
-    ```
-
-3. **Make predictions:**
-
-    ```bash
-    python predict.py --model models/best_model.pkl --input data/new_lightcurves.csv
-    ```
-
-For detailed instructions, refer to the [Usage Guide](docs/usage.md).
+- [Kepler Lightcurve Notebook](https://spacetelescope.github.io/notebooks/notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.html)
+- [Feature Engineering with TSFresh](notebooks/feature_engineering_tsfresh.ipynb)
+- [Model Training and Evaluation](notebooks/model_training_evaluation.ipynb)
 
 ## Examples
 
@@ -115,23 +72,6 @@ Below are some examples of model performance and visualizations:
 ### Light Curve Visualization
 
 ![Light Curve](Images/light_curve_example.png)
-
-## Machine Learning Algorithms
-
-Exoplanet ML employs a variety of machine learning algorithms to ensure comprehensive analysis and accurate predictions:
-
-- **Random Forest Classifier**
-- **LightGBM**
-- **AdaBoost**
-- **Histogram Gradient Boosting**
-- **XGBoost**
-- **XGBoost Calibrated**
-
-## Key Notebooks
-
-- [Kepler Lightcurve Notebook](https://spacetelescope.github.io/notebooks/notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.html)
-- [Feature Engineering with TSFresh](notebooks/feature_engineering_tsfresh.ipynb)
-- [Model Training and Evaluation](notebooks/model_training_evaluation.ipynb)
 
 ## Project Structure
 
@@ -167,3 +107,74 @@ exoplanet-ml/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
+```
+
+## Resources
+
+### Dimensionality Reduction
+
+- [Introduction to PCA, t-SNE, and UMAP](https://www.kaggle.com/code/samuelcortinhas/intro-to-pca-t-sne-umap)
+- [Plotly t-SNE and UMAP Projections](https://plotly.com/python/t-sne-and-umap-projections/)
+- [Kernel PCA in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html)
+- [Understanding UMAP](https://pair-code.github.io/understanding-umap/)
+- [UMAP Documentation](https://umap-learn.readthedocs.io/en/latest/basic_usage.html)
+
+### TsFresh Feature Selection
+
+- [TsFresh API Documentation](https://tsfresh.readthedocs.io/en/latest/api/tsfresh.feature_selection.html)
+- [TsFresh for Industrial Applications](https://blog.mindmeldwithminesh.com/tsfresh-feature-extraction-by-distributed-and-parallel-means-for-industrial-big-data-applications-d84e9704702f)
+
+### Scikit-Learn Supervised Learning List and Description
+
+- [Scikit-Learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)
+
+### Gaussian Process
+
+- [Scikit-Learn Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html)
+- [Gaussian Process Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html)
+- [Gaussian Process Kernels](https://scikit-learn.org/stable/modules/gaussian_process.html#gp-kernels)
+
+### Scikit-Learn Unsupervised Learning List and Description
+
+- [Scikit-Learn Unsupervised Learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+
+### Hyperopt Hyperparameter Tuning
+
+- [Hyperopt Getting Started](http://hyperopt.github.io/hyperopt/getting-started/search_spaces/)
+- [Hyperopt Tutorial on Kaggle](https://www.kaggle.com/code/fanvacoolt/tutorial-on-hyperopt/notebook)
+
+### Incremental Principal Component Analysis
+
+- [Principal Component Analysis with Python](https://www.geeksforgeeks.org/principal-component-analysis-with-python/)
+- [Incremental PCA in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.IncrementalPCA.html)
+
+### Scikit-Learn Plotting
+
+- [Scikit-Learn Display Object Visualization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_display_object_visualization.html)
+- [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+
+### Probability Calibration
+
+- [Probability Calibration in scikit-learn](https://scikit-learn.org/stable/modules/calibration.html)
+- [Calibrated Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html)
+
+### Technical Problem Solution and Miscellaneous Links
+
+- [Issue #1280 - YOLOv7](https://github.com/WongKinYiu/yolov7/issues/1280)
+- [Scikit Optimize Issues](https://github.com/scikit-optimize/scikit-optimize/issues)
+
+## Acknowledgements
+
+- [Feature Engineering with TSFresh](https://www.rasgoml.com/feature-engineering-tutorials/how-to-create-time-series-features-with-tsfresh)
+- [Exoplanet Archive Acknowledgements](https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html)
+- [Exoplanet Archive DOI](https://exoplanetarchive.ipac.caltech.edu/docs/doi.html)
+- [Exoplanet Archive Table View](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=kep_conf_names)
+- [Exoplanet Archive Table Redirect](https://exoplanetarchive.ipac.caltech.edu/docs/table-redirect.html)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Usage Guide
+
+For detailed instructions, refer to the [Usage Guide](docs/usage.md).
