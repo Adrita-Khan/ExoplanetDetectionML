@@ -65,8 +65,6 @@ Below are some examples of model performance and visualizations:
 | Extreme Gradient Boosting                   | 86%      | 87%       | 86%         | 85%      | 95%           |
 | Extreme Gradient Boosting (Calibrated)      | 89%      | 89%       | 89%         | 89%      | 93%           |
 
-
-
 ### Light Curve Visualization
 
 ![Light Curve](Images/light_curve_example.png)
@@ -172,3 +170,16 @@ exoplanet-ml/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Note**: The rest of the code and additional files can be found in the following repositories:
+
+- [Exoplanet ML GitLab](https://gitlab.com/mirsakhawathossain/exoplanet-ml)
+- [New Dataset GitLab](https://gitlab.com/mirsakhawathossain/new-dataset)
+- [TSFresh Extract GitLab](https://gitlab.com/mirsakhawathossain/tsfresh-extract)
+- [Data Extract GitLab](https://gitlab.com/mirsakhawathossain/data-extract)
+- [ExoData New GitLab](https://gitlab.com/mirsakhawathossain/exodata-new)
+- [ExoData GitLab](https://gitlab.com/mirsakhawathossain/exodata)
+- [Exoplanet ML FP GitLab](https://gitlab.com/mirsakhawathossain/exoplanetml-fp)
+- [Exoplanet ML Kepler GitLab](https://gitlab.com/mirsakhawathossain/exoplanetml-kepler)
