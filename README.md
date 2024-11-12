@@ -67,7 +67,7 @@ Below are some examples of model performance and visualizations:
 
 ### Light Curve Visualization
 
-![Light Curve](Images/light_curve_example.png)
+![Light Curve](https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/656348main_ToV_transit_diag.jpg?w=1536&format=webp&fit=clip&crop=faces%2Cfocalpoint)
 
 ## Project Structure
 
