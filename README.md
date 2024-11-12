@@ -30,6 +30,9 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
+![Light Curve](https://www.researchgate.net/publication/384054113/figure/fig1/AS:11431281278011555@1726421015679/Diagram-of-Exoplanet-Detection-Process-using-Artificial-Intelligence-AI_W640.jpg)
+
+
 ## Features
 
 - **Automated Exoplanet Detection**: Utilizes transit survey-based light curves to identify potential exoplanets.
