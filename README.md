@@ -135,7 +135,7 @@ Exoplanet ML employs a variety of machine learning algorithms to ensure comprehe
 
 ## Project Structure
 
-plaintext
+```plaintext
 exoplanet-ml/
 ├── data/
 │   ├── raw/
