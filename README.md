@@ -58,12 +58,13 @@ Below are some examples of model performance and visualizations:
 
 ### Model Performance
 
-| Model                     | Accuracy | F1 Score | AUC-ROC |
-|---------------------------|----------|----------|---------|
-| Random Forest Classifier  | 95%      | 0.94     | 0.98    |
-| LightGBM                  | 96%      | 0.95     | 0.99    |
-| AdaBoost                  | 93%      | 0.92     | 0.97    |
-| XGBoost                   | 96%      | 0.95     | 0.99    |
+| Machine Learning Models                     | Accuracy | Precision | Sensitivity | F1-Score | ROC-AUC Score |
+|---------------------------------------------|----------|-----------|-------------|----------|---------------|
+| Random Forest                               | 84%      | 85%       | 84%         | 83%      | 85%           |
+| Adaptive Boosting                           | 82%      | 82%       | 82%         | 80%      | 86%           |
+| Histogram Gradient Boosting                 | 87%      | 87%       | 87%         | 87%      | 96%           |
+| Extreme Gradient Boosting                   | 86%      | 87%       | 86%         | 85%      | 95%           |
+| Extreme Gradient Boosting (Calibrated)      | 89%      | 89%       | 89%         | 89%      | 93%           |
 
 ### Feature Importance
 
@@ -174,7 +175,3 @@ exoplanet-ml/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Usage Guide
-
-For detailed instructions, refer to the [Usage Guide](docs/usage.md).
