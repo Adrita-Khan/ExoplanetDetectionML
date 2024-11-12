@@ -69,7 +69,7 @@ Below are some examples of model performance and visualizations:
 
 ![Light Curve](https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/656348main_ToV_transit_diag.jpg?w=1536&format=webp&fit=clip&crop=faces%2Cfocalpoint)
 
-![Light Curve](https://svs.gsfc.nasa.gov/vis/a010000/a013000/a013022/Exoplanet_Single_Transit-HD_1080p.webm)
+![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
 
 ## Project Structure
 
