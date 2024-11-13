@@ -193,3 +193,10 @@ This project is licensed under the [MIT License](LICENSE).
 - [ExoData GitLab](https://gitlab.com/mirsakhawathossain/exodata)
 - [Exoplanet ML FP GitLab](https://gitlab.com/mirsakhawathossain/exoplanetml-fp)
 - [Exoplanet ML Kepler GitLab](https://gitlab.com/mirsakhawathossain/exoplanetml-kepler)
+
+## Contact
+
+**For any inquiries or feedback, please contact:**
+
+**Adrita Khan**  
+[Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
