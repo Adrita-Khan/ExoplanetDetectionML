@@ -1,7 +1,8 @@
 ![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
 
-## Detection of Exoplanets with Machine Learning Techniques through Transit Light Curve Analysis
+## Exoplanet Detection ML: Detection of Exoplanets with Machine Learning Techniques through Transit Light Curve Analysis
 *This project is ongoing and subject to continuous advancements and modifications.*
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 
 **Exoplanet Detection ML** is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. By leveraging advanced machine learning algorithms and feature engineering techniques, this project aims to enhance the accuracy and efficiency of exoplanet discovery.
 
