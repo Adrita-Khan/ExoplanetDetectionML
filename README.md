@@ -75,7 +75,8 @@ Below are some examples of model performance and visualizations:
 
 
 
-![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
+<img src="https://avanderburg.github.io/tutorial/HAT-P-3b.gif" alt="Light Curve" width="800" height="300">
+
 
 ### Workflow
 
