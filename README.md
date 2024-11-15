@@ -49,6 +49,8 @@ Exoplanet ML employs a variety of machine learning algorithms to ensure comprehe
 - **XGBoost**
 - **XGBoost Calibrated**
 
+![Light Curve](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/HR_8799_Orbiting_Exoplanets.gif/800px-HR_8799_Orbiting_Exoplanets.gif)
+
 ## Key Notebooks
 
 - [Kepler Lightcurve Notebook](https://spacetelescope.github.io/notebooks/notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.html)
