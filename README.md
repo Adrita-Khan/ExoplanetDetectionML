@@ -1,5 +1,7 @@
 ![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
 
+*This project is ongoing and subject to continuous advancements and modifications.*
+
 **Exoplanet ML** is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. By leveraging advanced machine learning algorithms and feature engineering techniques, this project aims to enhance the accuracy and efficiency of exoplanet discovery.
 
 ![Light Curve](https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/656348main_ToV_transit_diag.jpg?w=1536&format=webp&fit=clip&crop=faces%2Cfocalpoint)
