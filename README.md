@@ -76,6 +76,8 @@ Below are some examples of model performance and visualizations:
 | Extreme Gradient Boosting                   | 86%      | 87%       | 86%         | 85%      | 95%           |
 | Extreme Gradient Boosting (Calibrated)      | 89%      | 89%       | 89%         | 89%      | 93%           |
 
+![CM](Assets/CM.png)
+
 ### Light Curve Visualization
 
  ![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
