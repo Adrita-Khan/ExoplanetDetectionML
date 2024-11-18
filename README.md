@@ -179,4 +179,5 @@ This project is licensed under the [MIT License](LICENSE).
 **For any inquiries or feedback, please contact:**
 
 **Adrita Khan**  
-[Email](mailto:adrita.khan.official@gmail.com) | [LinkedIn](https://www.linkedin.com/in/adrita-khan) | [Twitter](https://x.com/Adrita_)
+*[📧 Email](mailto:adrita.khan.official@gmail.com) | [🔗 LinkedIn](https://www.linkedin.com/in/adrita-khan) | [🐦 Twitter](https://x.com/Adrita_)*
+
