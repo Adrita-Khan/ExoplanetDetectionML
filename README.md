@@ -62,9 +62,16 @@ Exoplanet ML employs a variety of machine learning algorithms to ensure comprehe
 - [Feature Engineering with TSFresh](notebooks/feature_engineering_tsfresh.ipynb)
 - [Model Training and Evaluation](notebooks/model_training_evaluation.ipynb)
 
-## Examples
+---
 
-Below are some examples of model performance and visualizations:
+
+### Workflow
+
+![Light Curve](Assets/workflow.png)
+
+
+*Below are some examples of model performance and visualizations:*
+
 
 ### Model Performance
 
@@ -83,45 +90,6 @@ Below are some examples of model performance and visualizations:
 
  ![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
 
-### Workflow
-
-![Light Curve](Assets/workflow.png)
-
-## Project Structure
-
-```plaintext
-exoplanet-ml/
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── new_lightcurves.csv
-├── notebooks/
-│   ├── feature_engineering_tsfresh.ipynb
-│   ├── model_training_evaluation.ipynb
-│   └── exploratory_analysis.ipynb
-├── models/
-│   ├── best_model.pkl
-│   └── model_v1.pkl
-├── src/
-│   ├── data_preparation.py
-│   ├── feature_engineering.py
-│   ├── train.py
-│   └── predict.py
-├── docs/
-│   ├── data_preparation.md
-│   └── usage.md
-├── Images/
-│   ├── Hr8799_orbit_hd.gif
-│   ├── feature_importance.png
-│   └── light_curve_example.png
-├── tests/
-│   ├── test_data_preparation.py
-│   └── test_model.py
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
 
 ## Resources
 
