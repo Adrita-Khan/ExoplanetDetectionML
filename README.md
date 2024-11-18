@@ -43,6 +43,10 @@
 - **Feature Engineering**: Employs robust feature extraction and selection techniques to enhance model performance.
 - **Dimensionality Reduction**: Reduces feature space complexity while preserving essential information.
 
+### Light Curve Visualization
+
+ ![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
+
 ## Machine Learning Algorithms
 
 Exoplanet ML employs a variety of machine learning algorithms to ensure comprehensive analysis and accurate predictions:
@@ -86,9 +90,7 @@ Exoplanet ML employs a variety of machine learning algorithms to ensure comprehe
 ### Confusion matrix
 ![CM](Assets/CM.png)
 
-### Light Curve Visualization
 
- ![Light Curve](https://avanderburg.github.io/tutorial/HAT-P-3b.gif)
 
 
 ## Resources
