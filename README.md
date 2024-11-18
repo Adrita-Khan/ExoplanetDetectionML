@@ -76,7 +76,7 @@ Exoplanet ML employs a variety of machine learning algorithms to ensure comprehe
 ---
 
 
-*Below are some examples of model performance and visualizations:*
+***Below are some examples of model performance:***
 
 
 ### Model Performance
